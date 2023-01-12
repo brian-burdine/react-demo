@@ -1,6 +1,2 @@
 tasks:
-  - init: |
-      echo 'TODO: build project'
-    command: |
-      echo 'TODO: start app'
-  - before: npm i -g firebase-tools
+  - init: npm i -g firebase-tools 
